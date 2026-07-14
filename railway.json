@@ -1,0 +1,6 @@
+{
+  "$schema": "https://railway.com/railway.schema.json",
+  "deploy": {
+    "startCommand": "uvicorn deepseek_python_20260714_eeac72:app --host 0.0.0.0 --port $PORT"
+  }
+}
